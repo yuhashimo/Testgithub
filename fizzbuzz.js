@@ -2,7 +2,7 @@ function fizzbuzz(n) {
   if(n % 15 === 0){
     return 'FizzBuzz'
   }
-  if(n % 4 === 0){
+  if(n % 3 === 0){
     return 'Fizz'
   }
   if(n % 5 === 0){
@@ -11,4 +11,3 @@ function fizzbuzz(n) {
   return String(n)
 }
 module.exports = fizzbuzz
-
